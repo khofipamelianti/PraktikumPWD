@@ -1,0 +1,10 @@
+use akademik;
+desc mahasiswa;
+alter table mahasiswa add keterangan text;
+select*from mahasiswa where alamat = "SOLO";
+insert into mahasiswa values('MHS06','Fisika','P','lampung','2000-09-09','Mahasiswa');
+select*from mahasiswa where alamat = "SOLO";
+select*from mahasiswa;
+select*from mahasiswa where jkel = 'p';
+select*from mahasiswa order by tgllhr;
+show tables;
